@@ -1,4 +1,5 @@
 @media screen{
+*{ margin: 0; padding: 0; border: 0; font-size: 100%; }
 .my-container {
     background-color: #B8A0F8;
     -webkit-box-sizing: border-box;
@@ -25,12 +26,14 @@
     padding: 10;
     text-align: center;
     background-color: #F9EDAB;
+    margin-left: 3px;
+    margin-right: 3px;
 }
 
 #mycontainertwo {
     width: auto;
-    color: #ED593F;
-    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    color: #FFFFFF;
+    font-family:'Roboto', sans-serif;
     border-radius: 10;
     background-color: #0F1C3A;
     border-color: #B8A0F8;
@@ -39,7 +42,7 @@
     border-style: dashed;
     text-align: left;
     text-indent: 6px;
-    background-image: url(url);
+    background-image: url(../images/sai3.jpg);
 }
 
 
